@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello!</title>
+
+		<style>
+            body {
+              background-color: DodgerBlue;
+            }
+        </style>
+        
+        <style>
+           .flex-container {
+            display: flex;
+            justify-content: center;
+            background-color: DodgerBlue;
+            }
+
+            .flex-container > div {
+            background-color: #f1f1f1;
+            width: 600px;
+            margin: 10px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 15px;
+            font-weight: bold;
+            }
+
+            h1 {text-align: center;}
+            p {text-align: center;}
+
+  
+        </style>
+
+	</head>
+
+	<body>
+		<h1>Hello World!</h1>
+
+		<div class="flex-container">
+            <div>My name is Matt Royal</div>
+            <div>This is Module 2</div>
+            <div>A Basic Fluid Layout</div>
+            <div>We are just "flexin"!</div>
+        </div>
+		
+	</body>
+
+</html>
